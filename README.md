@@ -10,7 +10,7 @@ Usage:
 ```
  git co git@github.com:jvimr/docker.registry.git
  cd eu-west-1
- sudo docker -t="my.docker.registry.eu-west-1" .
+ sudo docker build -t="my.docker.registry.eu-west-1" .
 ```
 ```
  sudo docker run \
