@@ -8,7 +8,7 @@ Usage:
 
 1 build image from docker file:
 ```
- git co .....
+ git co git@github.com:jvimr/docker.registry.git
  cd eu-west-1
  sudo docker -t="my.docker.registry.eu-west-1" .
 ```
