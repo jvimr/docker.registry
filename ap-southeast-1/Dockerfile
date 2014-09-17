@@ -7,7 +7,7 @@ RUN echo "region = ap-southeast-1" >> /etc/boto.cfg
 
 RUN echo "" >> /docker-registry/config/boto.cfg
 RUN echo "[S3]" >> /docker-registry/config/boto.cfg
-RUN echo "region = ap-southeastt-1" >> /docker-registry/config/boto.cfg
+RUN echo "region = ap-southeast-1" >> /docker-registry/config/boto.cfg
 
 RUN mkdir /config/
 
