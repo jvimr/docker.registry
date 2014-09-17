@@ -17,8 +17,8 @@ Usage:
          -e SETTINGS_FLAVOR=s3 \
          -e AWS_BUCKET=acme-docker \
          -e STORAGE_PATH=/registry \
-         -e AWS_KEY=AKIAHSHB43HS3J92MXZ \
-         -e AWS_SECRET=xdDowwlK7TJajV1Y7EoOZrmuPEJlHYcNP2k4j49T \
+         -e AWS_KEY=YOUR_KEY \
+         -e AWS_SECRET=YOUR_SECRET \
          -e SEARCH_BACKEND=sqlalchemy \
          -p 5000:5000 \
          my.docker.registry.eu-west-1
@@ -31,8 +31,8 @@ Usage:
          -e SETTINGS_FLAVOR=s3 \
          -e AWS_BUCKET=acme-docker \
          -e STORAGE_PATH=/registry \
-         -e AWS_KEY=AKIAHSHB43HS3J92MXZ \
-         -e AWS_SECRET=xdDowwlK7TJajV1Y7EoOZrmuPEJlHYcNP2k4j49T \
+         -e AWS_KEY=YOUR_KEY \
+         -e AWS_SECRET=YOUR_SECRET \
          -e SEARCH_BACKEND=sqlalchemy \
          -p 5000:5000 \
          jvimr/docker.registry.eu-west-1:latest
